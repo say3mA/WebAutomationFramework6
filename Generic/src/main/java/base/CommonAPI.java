@@ -130,7 +130,7 @@ public class CommonAPI {
             if(OS.equalsIgnoreCase("OS X")){
                 System.setProperty("webdriver.chrome.driver", "../Generic/src/drivers/mac/chromedriver");
             }else if(OS.equalsIgnoreCase("Windows")){
-                System.setProperty("webdriver.chrome.driver", "../Generic/src/windows/chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "../Generic/src/drivers/windows/chromedriver.exe");
             }
             driver = new ChromeDriver(options);
         }
@@ -139,7 +139,7 @@ public class CommonAPI {
             if(OS.equalsIgnoreCase("OS X")){
                 System.setProperty("webdriver.gecko.driver", "../Generic/src/drivers/mac/geckodriver");
             }else if(OS.equalsIgnoreCase("Windows")) {
-                System.setProperty("webdriver.gecko.driver", "../Generic/browser-driver/geckodriver.exe");
+                System.setProperty("webdriver.gecko.driver", "../Generic/src/drivers/windows/geckodriver.exe");
             }
             driver = new FirefoxDriver();
 
