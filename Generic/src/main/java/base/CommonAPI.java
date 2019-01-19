@@ -32,7 +32,7 @@ import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 public class CommonAPI {
-    public WebDriver driver = null;
+    public static WebDriver driver = null;
 
     //ExtentReport
     public static ExtentReports extent;
@@ -473,7 +473,7 @@ public class CommonAPI {
 
     public static Properties loadProperties() throws IOException{
         Properties prop = new Properties();
-        File filepath = new File(System.getProperty("user.dir")+"/src/test/resources/.properties");
+        File filepath = new File(System.getProperty("user.dir")+"/Generic/src/main/resources/.properties");
         InputStream ism = new FileInputStream(filepath.getAbsoluteFile());
         prop.load(ism);
         ism.close();
