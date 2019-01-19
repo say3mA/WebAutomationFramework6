@@ -11,6 +11,7 @@
     <modules>
         <module>Generic</module>
         <module>eBay</module>
+        <module>WellsFargo</module>
     </modules>
 
     <dependencyManagement>
