@@ -25,18 +25,20 @@ public class HomePage extends CommonAPI {
     @FindBy (css = "#firstname")
     WebElement firstName;
     @FindBy (css = "#lastname")
-    WebElement typelname;
-    @FindBy (css = "#PASSWORD")
-    WebElement cpassword;
+    WebElement lastName;
     @FindBy (id ="ppaFormSbtBtn" )
-    WebElement clickregister;
+    WebElement clickRegister;
     @FindBy (id = "gh-logo")
     WebElement ebayLogo;
     @FindBy(linkText = "careers")
     WebElement careersLink;
 
+
     public void clicksign(){
         signIn.click();
+    }
+    public void registerClick(){
+        clickRegister.click();
     }
     public void setUserName(String Value){
         userName.sendKeys(Value);
@@ -47,7 +49,7 @@ public class HomePage extends CommonAPI {
     public void clicksubmit() {
         signInBtn.click();
     }
-    public void clickFb(){
+    public void clickFacebook(){
         signInWithFb.click();
     }
     public void  clickreg(){
@@ -56,16 +58,8 @@ public class HomePage extends CommonAPI {
     public void setTypeName(String Value){
         firstName.sendKeys(Value);
     }
-    public void setTypelname(String Value) {
-        typelname.sendKeys(Value);
-    }
-    public void setCreatePassword(String Value){
-        cpassword.sendKeys(Value);
-    }
-    public void submitReg() {
-        clickregister.click();
 
-    }
+
 
     public CareersPage careersClick(){
         careersLink.click();
