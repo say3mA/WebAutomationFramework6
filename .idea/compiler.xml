@@ -13,8 +13,6 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="com.selenium.frmwrk" target="1.8" />
-      <module name="eBay" target="1.8" />
-      <module name="Generic" target="1.8" />
       <module name="WellsFargo" target="1.8" />
     </bytecodeTargetLevel>
   </component>

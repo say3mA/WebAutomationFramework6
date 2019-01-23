@@ -7,7 +7,7 @@
     <parameter name="cloudEnvName" value="browserstack"/>
     <parameter name="os" value="OS X"/>
     <parameter name="os_version" value="Sierra"/>
-    <parameter name="browserName" value="firefox"/>
+    <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="30.0"/>
     <parameter name="url" value="https://www.ebay.com/"/>
 
@@ -16,6 +16,13 @@
             <!--<class name="TestHome"/>-->
             <!--<class name="test.search.TestSearch"/>-->
             <class name="test.pages.HomePageTest"/>
+            <class name="test.pages.CareerPagesTest"/>
+            <class name="test.pages.HomeAndGardenPageTest"/>
+            <class name="test.pages.SearchPageTest"/>
+            <class name="test.pages.SignInPageTest"/>
+            <class name="test.pages.SellPageTest"/>
+            <class name="test.pages.TableTennisEquipmentPageTest"/>
+
         </classes>
     </test>
 

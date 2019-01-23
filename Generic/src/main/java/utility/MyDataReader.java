@@ -5,15 +5,14 @@ import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-
 import java.io.FileInputStream;
 
 public class MyDataReader {
 	
-	protected XSSFSheet ExcelWSheet;
-	protected XSSFWorkbook ExcelWBook;
-	protected XSSFCell Cell;
-	protected XSSFRow Row;
+	 XSSFSheet ExcelWSheet;
+	 XSSFWorkbook ExcelWBook;
+	 XSSFCell Cell;
+	 XSSFRow Row;
 
 	
 	public void setExcelFile(String Path) throws Exception {
