@@ -21,6 +21,7 @@ public class SellPageTest extends SellPage {
         String title = driver.getTitle();
         Assert.assertEquals(title, "Selling on eBay | Electronics, Fashion, Home &amp; Garden | eBay");
     }
+    @Test
     public void properUrl(){
         Assert.assertEquals(driver.getCurrentUrl(), "https://www.ebay.com/sl/sell");
     }

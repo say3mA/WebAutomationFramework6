@@ -12,23 +12,26 @@ public class CareerPagesTest extends CareersPage {
 
     CareersPage careerspage;
     HomePage homepage;
+
     @BeforeMethod
     public void initialize(){
         homepage = new HomePage();
-        this.careerspage = homepage.careersClick();
+        this.careerspage = homepage.careersPageClick();
     }
     @Test
-    public void properUrl(){
-        Assert.assertEquals(driver.getCurrentUrl(), "https://careers.ebayinc.com/join-our-team/start-your-search/");
+    public void properUrl()throws InterruptedException{
+        careerspage.checkUrl();
     }
     @Test
-    public void checkTitle(){
-        Assert.assertEquals(driver.getTitle(), "Start Your Search - eBay Inc. Careers");
+    public void properTitle() throws InterruptedException{
+        careerspage.checkTitle();
     }
     @Test
     public void engineersLink(){
-
+        careerspage.engineeringClick();
     }
+    @Test
+
     @AfterMethod
     public void tearDown(){
         driver.close();

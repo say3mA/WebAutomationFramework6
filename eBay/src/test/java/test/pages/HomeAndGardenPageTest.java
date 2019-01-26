@@ -15,12 +15,10 @@ public class HomeAndGardenPageTest extends HomeAndGardenPage {
     HomePage homepage;
 
     @BeforeMethod
-    public void initialize() {
+    public void initialize() throws InterruptedException {
         PageFactory.initElements(driver, this);
         hngpage = homepage.HomeAndGardenClick();
     }
-
-
     @Test
     public void categoryCheckTest() {
         hngpage.checkDropdown();;

@@ -11,17 +11,13 @@
     <parameter name="browserVersion" value="30.0"/>
     <parameter name="url" value="https://www.ebay.com/"/>
 
-    <test name = "eBay Home">
+    <test name = "eBay">
         <classes>
             <!--<class name="TestHome"/>-->
-            <!--<class name="test.search.TestSearch"/>-->
-            <class name="test.pages.HomePageTest"/>
-            <class name="test.pages.CareerPagesTest"/>
-            <class name="test.pages.HomeAndGardenPageTest"/>
-            <class name="test.pages.SearchPageTest"/>
-            <class name="test.pages.SignInPageTest"/>
-            <class name="test.pages.SellPageTest"/>
-            <class name="test.pages.TableTennisEquipmentPageTest"/>
+
+
+            <class name="test.pages.RegisterPageTest"/>
+
 
         </classes>
     </test>

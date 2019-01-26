@@ -12,6 +12,7 @@
         <module>Generic</module>
         <module>eBay</module>
         <module>WellsFargo</module>
+        <module>Rest_API</module>
     </modules>
 
     <dependencyManagement>

@@ -4,12 +4,15 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 import base.CommonAPI;
-import org.testng.annotations.BeforeMethod;
+import org.openqa.selenium.support.ui.Select;
+
+import java.util.List;
 
 public class HomePage extends CommonAPI {
 
+
+    HomePage homePage;
     @FindBy (xpath = "//a[contains(text(),'Sign in')]")
     WebElement signIn;
     @FindBy (name = "userid")
@@ -28,63 +31,55 @@ public class HomePage extends CommonAPI {
     WebElement lastName;
     @FindBy (id ="ppaFormSbtBtn" )
     WebElement clickRegister;
-    @FindBy (id = "gh-logo")
+    @FindBy (css = "gh-logo")
     WebElement ebayLogo;
     @FindBy(linkText = "careers")
     WebElement careersLink;
 
-
-    public void clicksign(){
-        signIn.click();
+    public boolean eBayLogoCheck(){
+        return ebayLogo.isDisplayed();
     }
-    public void registerClick(){
-        clickRegister.click();
+    public void categoryDropDownSelect(){
+        Select categoryDropDown = new Select(driver.findElement(By.xpath("//select[@id='gh-cat']")));
+        categoryDropDown.selectByVisibleText("Antiques");
+        categoryDropDown.selectByIndex(7);
+        homePage.searchClick();
     }
-    public void setUserName(String Value){
-        userName.sendKeys(Value);
+    public int categoryDropDownNumberOfItems(){
+        Select categoryDropDown = new Select(driver.findElement(By.xpath("//select[@id='gh-cat']")));
+        List<WebElement> list = categoryDropDown.getOptions();
+        int count = list.size();
+        return count;
     }
-    public void setPassword(String value) {
-        typeOnElement("#password", value);
+    public void eBayKazakhstanSelect(){
+        WebElement eBaySites = driver.findElement(By.cssSelector("#gf-fbtn"));
+        eBaySites.click();
+        clickOnElement("//p[contains(text(),'Kazakhstan')]");
     }
-    public void clicksubmit() {
-        signInBtn.click();
-    }
-    public void clickFacebook(){
-        signInWithFb.click();
-    }
-    public void  clickreg(){
-        register.click();
-    }
-    public void setTypeName(String Value){
-        firstName.sendKeys(Value);
-    }
-
-
-
-    public CareersPage careersClick(){
-        careersLink.click();
-        return new CareersPage();
-    }
-    public HomeAndGardenPage HomeAndGardenClick(){
-        driver.findElement(By.linkText("Home & Garden")).click();
-        return new HomeAndGardenPage();
-    }
-
-    public SearchPage searchPageClick(){
-        driver.findElement(By.cssSelector("#gh-btn"));
+    public SearchPage searchClick(){
+        clickOnCss("#gh-btn");
         return new SearchPage();
     }
+    public HomeAndGardenPage HomeAndGardenClick() throws InterruptedException {
+        clickOnElement("/html[1]/body[1]/div[5]/div[1]/ul[1]/li[7]/a[1]");
+        return new HomeAndGardenPage();
+    }
+    public CareersPage careersPageClick(){
+        clickOnElement("//a[contains(text(),'Careers')]");
+        return new CareersPage();
+    }
     public SellPage sellPageClick(){
-        driver.findElement(By.xpath("//a[@class='gh-p'][contains(text(),'Sell')]"));
+        clickOnElement("//a[@class='gh-p'][contains(text(),'Sell')]");;
         return new SellPage();
     }
     public SignInPage signInPageClick(){
-        driver.findElement(By.xpath("//a[contains(text(),'Sign in')]"));
+        clickOnElement("//a[contains(text(),'Sign in')]");
         return new SignInPage();
     }
-
-
-
+    public RegisterPage registerPageClick(){
+        clickOnElement("//a[contains(text(),'register')]");
+        return new RegisterPage();
+    }
 }
 
 

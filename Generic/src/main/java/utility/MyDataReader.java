@@ -1,11 +1,19 @@
 package utility;
 
 
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+import java.io.BufferedInputStream;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 
 public class MyDataReader {
 	
@@ -13,6 +21,9 @@ public class MyDataReader {
 	 XSSFWorkbook ExcelWBook;
 	 XSSFCell Cell;
 	 XSSFRow Row;
+	 static Workbook book;
+	 static Sheet sheet;
+	 public static String Path = "/Users/MacUser/IdeaProjects/comseleniumfrmwrk/eBay/src/test/java/test/pages/TestFiles/TestData.xlsx";
 
 	
 	public void setExcelFile(String Path) throws Exception {
@@ -63,5 +74,57 @@ public class MyDataReader {
 			return mydata;
 		} //// end of getexcel sheet data
 
+	public static Object[][] getTestData(int sheetIndex){
+		//FileInputStream file = null;
+		BufferedInputStream bis = null;
+		try {
+			bis = new BufferedInputStream(new FileInputStream(Path));
+			//file = new FileInputStream(Path);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		try {
+			book = WorkbookFactory.create(bis);
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (InvalidFormatException e) {
+			e.printStackTrace();
+		}
+		sheet = book.getSheetAt(sheetIndex);
+		//Object[][] data = new  Object[sheet.getLastRowNum()+1][sheet.getRow(0).getLastCellNum()+1];
+		Object [][] parsedData = new Object[sheet.getLastRowNum()][sheet.getRow(0).getLastCellNum()];
+		for (int i = 0;i<parsedData.length;i++){
+			for (int k = 0; k < sheet.getRow(i).getLastCellNum();k++){
+				parsedData[i][k] = sheet.getRow(i+1).getCell(k).toString();
+			}
+		}
+		return parsedData;
+	}
+	public static Object[][] getTestData(String sheetName) {
+		FileInputStream file = null;
+		try {
+			file = new FileInputStream(Path);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		try {
+			book = WorkbookFactory.create(file);
+		} catch (InvalidFormatException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		sheet = book.getSheet(sheetName);
+		Object[][] data = new Object[sheet.getLastRowNum()][sheet.getRow(0).getLastCellNum()];
+		// System.out.println(sheet.getLastRowNum() + "--------" +
+		// sheet.getRow(0).getLastCellNum());
+		for (int i = 0; i < sheet.getLastRowNum(); i++) {
+			for (int k = 0; k < sheet.getRow(0).getLastCellNum(); k++) {
+				data[i][k] = sheet.getRow(i + 1).getCell(k).toString();
+				// System.out.println(data[i][k]);
+			}
+		}
+		return data;
+	}
 
 } // end of class
