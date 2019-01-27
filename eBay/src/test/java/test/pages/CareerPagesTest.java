@@ -31,6 +31,17 @@ public class CareerPagesTest extends CareersPage {
         careerspage.engineeringClick();
     }
     @Test
+    public void careersSearchTest(){
+        careerspage.searchCareer("Automation Engineer");
+    }
+    @Test
+    public void ebayLogoValidation(){
+        careerspage.eBayLogoIsThere();
+    }
+    @Test
+    public void companyLinkTest(){
+        careerspage.ourCompanyClick();
+    }
 
     @AfterMethod
     public void tearDown(){

@@ -34,7 +34,7 @@ public class TableTennisEquipmentPageTest extends TableTennisEquipmentPage {
     public void checkTitle()throws InterruptedException{
         Thread.sleep(5000);
         Assert.assertEquals(driver.getTitle(), "Table Tennis Equipment | eBay");
-    }**/
+    }
     @DataProvider
     public Object[][] getExcelTestData() throws Exception {
         Object data[][] = dataReader.getTestData(0);
@@ -44,7 +44,7 @@ public class TableTennisEquipmentPageTest extends TableTennisEquipmentPage {
     public void searchTableTennisTest(String item, String item2)throws InterruptedException{
         ttepage.tableTennisSearch(item);
         ttepage.tableTennisSearch(item2);
-    }
+    }**/
 
 
 }

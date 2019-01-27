@@ -22,6 +22,8 @@ public class CareersPage extends CommonAPI {
     WebElement searchCareer;
     @FindBy(xpath = "//img[@src='https://static.ebayinc.com/static/assets/Uploads/Content/browse-jobs-by-location.png']")
     WebElement ebayBuildingImage;
+    @FindBy(linkText = "Our Company")
+    WebElement ourCompanyLink;
 
     public void engineeringClick(){
         clickByXpath("//div[@class='sub-navigation']//div[@class='inner']//ul[1]//li[1]");
@@ -41,7 +43,12 @@ public class CareersPage extends CommonAPI {
     }
     public void searchCareer(String value){
         typeOnCss("#search-keyword-banner", value);
+        clickOnCss("#search-submit-banner");
     }
+    public void ourCompanyClick(){
+        ourCompanyLink.click();
+    }
+
 
 
 }

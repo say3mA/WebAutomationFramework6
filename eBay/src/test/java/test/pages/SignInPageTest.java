@@ -40,7 +40,7 @@ public class SignInPageTest extends SignInPage {
     @Test
     public void signInFacebookTest(){
         signinpage.signInWithFacebook();
-    }**/
+    }
     @DataProvider
     public Object[][] getExcelTestData(){
         Object data[][] = dataReader.getTestData(0);
@@ -50,7 +50,7 @@ public class SignInPageTest extends SignInPage {
     public void signInTest(String user, String pw){
         signinpage.signIn(user, pw);
         System.out.println(user + "    " + pw);
-    }
+    }**/
     @AfterMethod
     public void tearDown(){
         driver.quit();
