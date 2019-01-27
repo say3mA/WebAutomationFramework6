@@ -24,13 +24,14 @@ public class HomeAndGardenPageTest extends HomeAndGardenPage {
         hngpage.checkDropdown();;
     }
     @Test
-    public void properUrl () {
-        Assert.assertEquals("https://www.ebay.com/b/Home-Garden/11700/bn_1853126", driver.getCurrentUrl());
+    public void properUrlTest () {
+        hngpage.checkUrl();
     }
     @Test
-    public void checkTitle () {
-        Assert.assertEquals("Home & Garden | eBay", driver.getTitle());
+    public void checkTitleTest () {
+        hngpage.checkTitle();
     }
+    @Test
 
     }
 

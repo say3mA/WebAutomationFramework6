@@ -32,5 +32,12 @@ public class HomeAndGardenPage extends CommonAPI {
     WebElement gearOption = driver.findElement(By.xpath("//ul[@id='w1-w0-w0-accordion-subtree']//li[5]//a[1]"));
         Assert.assertTrue(gearOption.isSelected());
 }
+    public void checkUrl(){
+        Assert.assertEquals("https://www.ebay.com/b/Home-Garden/11700/bn_1853126", driver.getCurrentUrl());
+    }
+    public void checkTitle(){
+        Assert.assertEquals("Home & Garden | eBay", driver.getTitle());
+
+    }
 
 }
