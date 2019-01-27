@@ -4,6 +4,7 @@
 <suite name="Rest API Automation Script " parallel="false">
     <test name = "restTestCaseRun">
         <classes>
+            <class name = "OpenWeatherMap.RequestTest"></class>
 
         </classes>
     </test>

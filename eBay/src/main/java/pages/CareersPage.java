@@ -48,7 +48,13 @@ public class CareersPage extends CommonAPI {
     public void ourCompanyClick(){
         ourCompanyLink.click();
     }
-
-
-
+    public void discoverJobsLink(){
+        clickByXpath("//span[contains(text(),'Discover jobs around the world')]");
+    }
+    public void findRightFitClick(){
+        clickByXpath("//span[contains(text(),'Find the right fit for you')]");
+    }
+    public void buildOpportunityLink() {
+        clickByXpath("//span[contains(text(),'Build opportunity with us')]");
+    }
 }

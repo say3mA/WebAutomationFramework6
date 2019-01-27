@@ -42,7 +42,18 @@ public class CareerPagesTest extends CareersPage {
     public void companyLinkTest(){
         careerspage.ourCompanyClick();
     }
-
+    @Test
+    public void discoverJobsTest(){
+        careerspage.discoverJobsLink();
+    }
+    @Test
+    public void findRightFitTest(){
+        careerspage.findRightFitClick();
+    }
+    @Test
+    public void buildOpportunityLinkTest(){
+        careerspage.buildOpportunityLink();
+    }
     @AfterMethod
     public void tearDown(){
         driver.close();

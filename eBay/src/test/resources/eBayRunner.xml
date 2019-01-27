@@ -16,7 +16,7 @@
             <!--<class name="TestHome"/>-->
 
 
-            <class name="test.pages.SellPageTest"/>
+            <class name="test.pages.CareerPagesTest"/>
 
 
         </classes>

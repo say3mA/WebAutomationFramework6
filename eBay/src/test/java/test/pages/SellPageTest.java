@@ -29,6 +29,10 @@ public class SellPageTest extends SellPage {
     public void checkSearchBoxTest(){
         sellpage.checkSearchBox();
     }
+    @Test
+    public void checkBusinessLink(){
+        sellpage.businessLink();
+    }
     @AfterMethod
     public void tearDown(){
         driver.quit();

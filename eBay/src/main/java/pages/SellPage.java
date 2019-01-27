@@ -27,6 +27,9 @@ public class SellPage extends CommonAPI {
         searchBox.sendKeys("macbook pro");
         clickByXpath("//button[@id='hero-keyword_searchBox-2[0]']");
     }
+    public void businessLink(){
+        clickByXpath("//a[@_sp='p.2380787.s.8591']");
+    }
 
 
 }
