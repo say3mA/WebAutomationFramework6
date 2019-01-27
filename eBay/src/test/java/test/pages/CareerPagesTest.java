@@ -54,6 +54,10 @@ public class CareerPagesTest extends CareersPage {
     public void buildOpportunityLinkTest(){
         careerspage.buildOpportunityLink();
     }
+    @Test
+    public void viewOpenPositionsTest(){
+        careerspage.viewOpenPositions();
+    }
     @AfterMethod
     public void tearDown(){
         driver.close();

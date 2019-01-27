@@ -57,4 +57,7 @@ public class CareersPage extends CommonAPI {
     public void buildOpportunityLink() {
         clickByXpath("//span[contains(text(),'Build opportunity with us')]");
     }
+    public void viewOpenPositions() {
+        clickByXpath("//a[@class='button-flat']");
+    }
 }

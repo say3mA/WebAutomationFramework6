@@ -27,13 +27,12 @@ public class TableTennisEquipmentPageTest extends TableTennisEquipmentPage {
     }
 
     /**@Test
-    public void properUrl(){
-        Assert.assertEquals(driver.getCurrentUrl(), "https://www.ebay.com/b/Table-Tennis-Equipment/97072/bn_1958176");
+    public void properUrlTest(){
+        ttepage.properUrl();
     }
     @Test
-    public void checkTitle()throws InterruptedException{
-        Thread.sleep(5000);
-        Assert.assertEquals(driver.getTitle(), "Table Tennis Equipment | eBay");
+    public void checkTitleTest()throws InterruptedException{
+        ttepage.checkTitle();
     }
     @DataProvider
     public Object[][] getExcelTestData() throws Exception {
@@ -45,6 +44,18 @@ public class TableTennisEquipmentPageTest extends TableTennisEquipmentPage {
         ttepage.tableTennisSearch(item);
         ttepage.tableTennisSearch(item2);
     }**/
+    @Test
+    public void under25DollarsTest(){
+        ttepage.under25DollarsClick();
+    }
+    @Test
+    public void _25to60DollarsTest(){
+        ttepage._25to60DollarsClick();
+    }
+    @Test
+    public void _60andAboveTest(){
+        ttepage._60AndAboveClick();
+    }
 
 
 }
