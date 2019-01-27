@@ -265,6 +265,7 @@ public class CommonAPI {
         }
     }
 
+
     public void typeOnInputField(String locator, String value){
         try {
             driver.findElement(By.cssSelector(locator)).sendKeys(value);
@@ -447,6 +448,16 @@ public class CommonAPI {
         newTabs.remove(oldTab);
         driver1.switchTo().window(newTabs.get(0));
         return driver1;
+    }
+    public String getTextByWebElement(WebElement webElement) {
+        String text = webElement.getText();
+        return text;
+    }
+    public void clearInputBox(WebElement webElement){
+        webElement.clear();
+    }
+    public void inputValueInTextBoxByWebElement(WebElement webElement, String value){
+        webElement.sendKeys(value + Keys.ENTER);
     }
     public static boolean isPopUpWindowDisplayed(WebDriver driver1, String locator){
         boolean value = driver1.findElement(By.cssSelector(locator)).isDisplayed();

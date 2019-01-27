@@ -37,4 +37,11 @@ public class SignInPage extends CommonAPI {
     public void signInWithFacebook(){
         clickOnCss("#signin_fb_btn");
     }
+    public void createAccountLink() {
+        clickOnCss("#InLineCreateAnAccount");
+    }
+
+    public void learnMoreClick() {
+        clickOnCss("#signinanch1")
+    }
 }

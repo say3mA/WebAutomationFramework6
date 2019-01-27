@@ -51,6 +51,14 @@ public class SignInPageTest extends SignInPage {
         signinpage.signIn(user, pw);
         System.out.println(user + "    " + pw);
     }**/
+    @Test
+    public void createAccountLinkTest(){
+        signinpage.createAccountLink();
+    }
+    @Test
+    public void learnMoreLinkTest(){
+        signinpage.learnMoreClick();
+    }
     @AfterMethod
     public void tearDown(){
         driver.quit();
