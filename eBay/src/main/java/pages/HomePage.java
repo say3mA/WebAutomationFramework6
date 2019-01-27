@@ -35,6 +35,8 @@ public class HomePage extends CommonAPI {
     WebElement ebayLogo;
     @FindBy(linkText = "careers")
     WebElement careersLink;
+    @FindBy(xpath = "/html[1]/body[1]/div[5]/div[1]/ul[1]/li[7]/a[1]")
+    WebElement hngLink;
 
     public boolean eBayLogoCheck(){
         return ebayLogo.isDisplayed();
@@ -62,6 +64,7 @@ public class HomePage extends CommonAPI {
     }
     public HomeAndGardenPage HomeAndGardenClick() throws InterruptedException {
         clickOnElement("/html[1]/body[1]/div[5]/div[1]/ul[1]/li[7]/a[1]");
+        //hngLink.click();
         return new HomeAndGardenPage();
     }
     public CareersPage careersPageClick(){

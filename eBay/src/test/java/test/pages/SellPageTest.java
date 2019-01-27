@@ -2,6 +2,7 @@ package test.pages;
 
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.HomePage;
@@ -18,12 +19,19 @@ public class SellPageTest extends SellPage {
     }
     @Test
     public void verifyTitle(){
-        String title = driver.getTitle();
-        Assert.assertEquals(title, "Selling on eBay | Electronics, Fashion, Home &amp; Garden | eBay");
+        sellpage.checkUrl();
     }
     @Test
     public void properUrl(){
-        Assert.assertEquals(driver.getCurrentUrl(), "https://www.ebay.com/sl/sell");
+        sellpage.checkTitle();
+    }
+    @Test
+    public void checkSearchBoxTest(){
+        sellpage.checkSearchBox();
+    }
+    @AfterMethod
+    public void tearDown(){
+        driver.quit();
     }
 
 }

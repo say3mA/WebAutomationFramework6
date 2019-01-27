@@ -4,6 +4,7 @@ package test.pages;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.HomeAndGardenPage;
@@ -16,22 +17,37 @@ public class HomeAndGardenPageTest extends HomeAndGardenPage {
 
     @BeforeMethod
     public void initialize() throws InterruptedException {
-        PageFactory.initElements(driver, this);
+        this.homepage = new HomePage();
         hngpage = homepage.HomeAndGardenClick();
     }
+
     @Test
     public void categoryCheckTest() {
-        hngpage.checkDropdown();;
+        hngpage.checkDropdown();
+        ;
     }
+
     @Test
-    public void properUrlTest () {
+    public void properUrlTest() {
         hngpage.checkUrl();
     }
+
     @Test
-    public void checkTitleTest () {
+    public void checkTitleTest() {
         hngpage.checkTitle();
     }
-    @Test
 
+    @Test
+    public void checkEbayLogoTest() {
+        hngpage.checkEbayLogo();
     }
+    @Test
+    public void checkSearchTest(){
+        hngpage.checkSearch();
+    }
+    @AfterMethod
+    public void tearDown(){
+        driver.quit();
+    }
+}
 
