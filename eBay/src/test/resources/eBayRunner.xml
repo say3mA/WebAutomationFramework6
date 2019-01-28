@@ -2,6 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="eBay Automation Script " parallel="false">
+    <listeners>
+        <listener class-name="reporting.ExtentReporterNG"/>
+    </listeners>
 
     <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
@@ -16,7 +19,17 @@
             <!--<class name="TestHome"/>-->
 
 
-            <class name="test.pages.SignInPageTest"/>
+            <!--<class name="test.pages.SignInPageTest"/>-->
+            <!--<class name="test.pages.CareerPagesTest"/>-->
+            <!--<class name="test.pages.GoogleSheetsSignInTest"/>-->
+            <!--<class name="test.pages.HomeAndGardenPageTest"/>-->
+            <!--<class name="test.pages.HomePageTest"/>-->
+            <!--<class name="test.pages.SearchPageTest"/>-->
+            <!--<class name="test.pages.TableTennisEquipmentPageTest"/>-->
+            <!--<class name="test.pages.SellPageTest"/>-->
+            <class name ="test.pages.GoogleSheetsSignInTest"/>
+
+
 
 
         </classes>

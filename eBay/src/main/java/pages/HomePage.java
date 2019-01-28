@@ -5,13 +5,17 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import base.CommonAPI;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 
 import java.util.List;
 
 public class HomePage extends CommonAPI {
 
-
+    public HomePage(){
+        PageFactory.initElements(driver, this);
+    }
     HomePage homePage;
     @FindBy (xpath = "//a[contains(text(),'Sign in')]")
     WebElement signIn;
@@ -38,9 +42,6 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "/html[1]/body[1]/div[5]/div[1]/ul[1]/li[7]/a[1]")
     WebElement hngLink;
 
-    public boolean eBayLogoCheck(){
-        return ebayLogo.isDisplayed();
-    }
     public void categoryDropDownSelect(){
         Select categoryDropDown = new Select(driver.findElement(By.xpath("//select[@id='gh-cat']")));
         categoryDropDown.selectByVisibleText("Antiques");
@@ -82,6 +83,16 @@ public class HomePage extends CommonAPI {
     public RegisterPage registerPageClick(){
         clickOnElement("//a[contains(text(),'register')]");
         return new RegisterPage();
+    }
+
+    public void properTitle() {
+        Assert.assertEquals(driver.getTitle(), "Electronics, Cars, Fashion, Collectibles, Coupons and More | eBay");
+    }
+    public void properUrl(){
+        Assert.assertEquals(driver.getCurrentUrl(), "https://www.ebay.com/");
+    }
+    public void ebayLogoIsThere() {
+        Assert.assertTrue(ebayLogo.isDisplayed());
     }
 }
 

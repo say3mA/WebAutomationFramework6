@@ -1,7 +1,9 @@
 package test.pages;
 
 import com.relevantcodes.extentreports.ExtentReports;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pages.GoogleSheetsSignIn;
 import pages.HomePage;
@@ -22,9 +24,19 @@ public class GoogleSheetsSignInTest extends GoogleSheetsSignIn {
         signinpage = homepage.signInPageClick();
         report = ExtentManager.getInstance();
     }
-    @Test
-    public void eBaySignIn() throws IOException {
+    @DataProvider
+    public Object[][] getGoogleSheetData() throws IOException {
         String[][] data = GoogleSheetReader.getSpreadSheetRecordsToSupplyDataProvider("1YdzdBrkAbXm8lvlvTJB9ImpriTICmj5wEgh7NdE4gn4", "A2:C");
-        signinpage.signIn(data[0][0], data[0][1]);
+        return data;
+    }
+    @Test(dataProvider = "getGoogleSheetData")
+    public void eBaySignIn(String fn, String ln) throws IOException {
+        signinpage.signIn(fn, ln);
+    }
+    @AfterMethod
+    public void tearDown(){
+        driver.quit();
+        report.flush();
+        report.close();
     }
 }

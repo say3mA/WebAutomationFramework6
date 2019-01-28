@@ -29,7 +29,7 @@ public class SignInPageTest extends SignInPage {
         this.dataReader = new MyDataReader();
         dataReader.setExcelFile(Path);
     }
-    /**@Test
+    @Test
     public void signInDummyTest(){
         signinpage.signIn();
     }
@@ -50,7 +50,7 @@ public class SignInPageTest extends SignInPage {
     public void signInTest(String user, String pw){
         signinpage.signIn(user, pw);
         System.out.println(user + "    " + pw);
-    }**/
+    }
     @Test
     public void createAccountLinkTest(){
         signinpage.createAccountLink();

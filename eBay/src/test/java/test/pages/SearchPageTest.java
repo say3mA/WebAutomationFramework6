@@ -1,5 +1,6 @@
 package test.pages;
 
+import com.relevantcodes.extentreports.ExtentReports;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -10,6 +11,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.SearchPage;
+import reporting.ExtentManager;
 import utility.MyDataReader;
 
 import static java.lang.Thread.sleep;
@@ -20,12 +22,15 @@ public class SearchPageTest extends SearchPage{
     HomePage homepage;
     SearchPage searchpage;
     MyDataReader dataReader;
+    ExtentReports report;
    
 
     @BeforeMethod
     public void initialization(){
         this.homepage = new HomePage();
         searchpage = homepage.searchClick();
+        report = ExtentManager.getInstance();
+
     }
     @Test
     public void properUrl(){

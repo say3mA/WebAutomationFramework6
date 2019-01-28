@@ -27,17 +27,18 @@ public class HomePageTest extends HomePage {
 
     }
 
-  /**  @Test
-    public void properTitle(){
-        Assert.assertEquals(driver.getTitle(), "Electronics, Cars, Fashion, Collectibles, Coupons and More | eBay");
+   @Test
+    public void properTitleTest(){
+        homepage.properTitle();
+
     }
     @Test
-    public void properUrl(){
-        Assert.assertEquals(driver.getCurrentUrl(), "https://www.ebay.com/");
+    public void properUrlTest(){
+        homepage.properUrl();
     }
    @Test
    public void eBayLogoValidation(){
-        Assert.assertTrue(homepage.ebayLogoIsThere());
+        homepage.ebayLogoIsThere();
    }
     @Test
     public void careerLinkTest(){
@@ -78,7 +79,7 @@ public class HomePageTest extends HomePage {
       Thread.sleep(2000);
       String title = driver.getCurrentUrl();
       Assert.assertEquals(title, "https://kz.ebay.com/");
-  }**/
+  }
   @Test
   public void registerPageTest(){
       homepage.registerPageClick();

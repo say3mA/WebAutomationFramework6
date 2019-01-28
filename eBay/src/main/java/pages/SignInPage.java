@@ -18,8 +18,6 @@ public class SignInPage extends CommonAPI {
     WebElement passWord;
     @FindBy(id = "#sgnBtn")
     WebElement signInBtn;
-
-
     public void signIn(String x, String y){
         userName.sendKeys(x);
         passWord.sendKeys(y);
@@ -30,7 +28,6 @@ public class SignInPage extends CommonAPI {
         passWord.sendKeys("cat");
         clickOnElement("#sgnBt");
     }
-
     public void signInWithGoogle(){
         clickOnCss("#signin_ggl_btn");
     }
@@ -40,8 +37,7 @@ public class SignInPage extends CommonAPI {
     public void createAccountLink() {
         clickOnCss("#InLineCreateAnAccount");
     }
-
     public void learnMoreClick() {
-        clickOnCss("#signinanch1")
+        clickOnCss("#signinanch1");
     }
 }
