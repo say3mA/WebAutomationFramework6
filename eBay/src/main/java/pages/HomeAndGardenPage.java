@@ -21,13 +21,18 @@ public class HomeAndGardenPage extends CommonAPI {
     WebElement ebayLogo;
 
 
-    public List<String> getShopByCategories(){
+    public static List<String> getShopByCategories(){
         List<WebElement> categories;
-        categories = driver.findElements(By.xpath("//*[@id=\"w1-w0\"]/ul"));
+        categories = driver.findElements(By.className("b-links-accordion"));
         List<String> list = new ArrayList<String>();
         for(WebElement w : categories)
             list.add(w.getText());
         return list;
+    }
+    public void amountOfCategories(){
+        List<String> list = HomeAndGardenPage.getShopByCategories();
+        Assert.assertEquals(list.size(), 15);
+
     }
 
     public void checkDropdown(){
@@ -48,6 +53,9 @@ public class HomeAndGardenPage extends CommonAPI {
     }
     public void checkSearch(){
         typeByCss("#gh-ac", "tomato plants");
+    }
+    public void advancedLinkClick(){
+        clickByXpath("//a[@id='gh-as-a']");
     }
 
 }

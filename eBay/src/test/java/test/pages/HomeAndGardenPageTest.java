@@ -26,26 +26,34 @@ public class HomeAndGardenPageTest extends HomeAndGardenPage {
 
     }
 
+//    @Test
+//    public void categoryCheckTest() {
+//        hngpage.checkDropdown();
+//
+//    }
+//    @Test
+//    public void properUrlTest() {
+//        hngpage.checkUrl();
+//    }
+//    @Test
+//    public void checkTitleTest() {
+//        hngpage.checkTitle();
+//    }
+//    @Test
+//    public void checkEbayLogoTest() {
+//        hngpage.checkEbayLogo();
+//    }
+//    @Test
+//    public void checkSearchTest(){
+//        hngpage.checkSearch();
+//    }
+//    @Test
+//    public void advancedLinkTest(){
+//        hngpage.advancedLinkClick();
+//    }
     @Test
-    public void categoryCheckTest() {
-        hngpage.checkDropdown();
-
-    }
-    @Test
-    public void properUrlTest() {
-        hngpage.checkUrl();
-    }
-    @Test
-    public void checkTitleTest() {
-        hngpage.checkTitle();
-    }
-    @Test
-    public void checkEbayLogoTest() {
-        hngpage.checkEbayLogo();
-    }
-    @Test
-    public void checkSearchTest(){
-        hngpage.checkSearch();
+    public void amountOfShopCategoriesTest(){
+        hngpage.amountOfCategories();
     }
     @AfterMethod
     public void tearDown(){
