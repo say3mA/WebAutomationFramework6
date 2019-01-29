@@ -31,10 +31,11 @@ public class HomeAndGardenPage extends CommonAPI {
     }
 
     public void checkDropdown(){
-    Select dropDown = new Select(driver.findElement(By.xpath("//*[@id='w1-w0-w0-accordion-arrow']")));
-    dropDown.selectByVisibleText("Gear");
+    WebElement dropDown = driver.findElement(By.xpath("/html[1]/body[1]/div[3]/div[4]/div[1]/div[1]/div[1]/div[1]/section[1]/ul[1]/li[1]/button[1]/*"));
+    dropDown.click();
+//    dropDown.findElement(By.linkText("Gear"));
     WebElement gearOption = driver.findElement(By.xpath("//ul[@id='w1-w0-w0-accordion-subtree']//li[5]//a[1]"));
-    Assert.assertTrue(gearOption.isSelected());
+    Assert.assertTrue(gearOption.isDisplayed());
 }
     public void checkUrl(){
         Assert.assertEquals("https://www.ebay.com/b/Home-Garden/11700/bn_1853126", driver.getCurrentUrl());

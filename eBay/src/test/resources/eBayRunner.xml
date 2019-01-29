@@ -27,7 +27,8 @@
             <!--<class name="test.pages.SearchPageTest"/>-->
             <!--<class name="test.pages.TableTennisEquipmentPageTest"/>-->
             <!--<class name="test.pages.SellPageTest"/>-->
-            <class name ="test.pages.GoogleSheetsSignInTest"/>
+            <class name ="test.pages.SellPageTest"/>
+
 
 
 

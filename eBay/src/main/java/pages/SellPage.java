@@ -15,6 +15,11 @@ public class SellPage extends CommonAPI {
 
     @FindBy(css = "#smac_complete")
     WebElement searchBox;
+    @FindBy(xpath = "//img[@src='https://anywhere.ebay.com/resources/images/storeBadges/new/ios-en.png']")
+    WebElement appStoreButton;
+    @FindBy(xpath ="//img[@src='https://anywhere.ebay.com/resources/images/storeBadges/new/android-en.png']")
+    WebElement playStoreButton;
+
 
     public void checkUrl(){
         String title = driver.getTitle();
@@ -30,6 +35,14 @@ public class SellPage extends CommonAPI {
     public void businessLink(){
         clickByXpath("//a[@_sp='p.2380787.s.8591']");
     }
+    public void appStoreButtonClick(){
+        appStoreButton.click();
+    }
+    public void playStoreButtonClick(){
+        playStoreButton.click();
+
+    }
+
 
 
 }

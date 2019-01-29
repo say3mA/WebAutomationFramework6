@@ -42,21 +42,9 @@
       <change afterPath="$PROJECT_DIR$/../project10a/src/addTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rest_API/src/test/java/JSONServer/PostsResources.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/src/main/java/pages/CareersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/src/main/java/pages/CareersPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/src/main/java/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/src/main/java/pages/RegisterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/src/main/java/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/src/main/java/pages/SearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/src/main/java/pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/src/main/java/pages/SignInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/src/test/java/test/pages/CareerPagesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/src/test/java/test/pages/CareerPagesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/src/test/java/test/pages/GoogleSheetsSignInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/src/test/java/test/pages/GoogleSheetsSignInTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/src/test/java/test/pages/HomeAndGardenPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/src/test/java/test/pages/HomeAndGardenPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/src/test/java/test/pages/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/src/test/java/test/pages/HomePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/src/test/java/test/pages/RegisterPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/src/test/java/test/pages/RegisterPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/src/test/java/test/pages/SearchPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/src/test/java/test/pages/SearchPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/src/test/java/test/pages/SellPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/src/test/java/test/pages/SellPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/src/test/java/test/pages/SignInPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/src/test/java/test/pages/SignInPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/src/test/java/test/pages/TableTennisEquipmentPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/src/test/java/test/pages/TableTennisEquipmentPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentReporterNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentReporterNG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eBay/src/main/java/pages/HomeAndGardenPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/src/main/java/pages/HomeAndGardenPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eBay/src/main/java/pages/SellPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/src/main/java/pages/SellPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eBay/src/test/resources/eBayRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/src/test/resources/eBayRunner.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -82,42 +70,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="25">
               <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="16" column="75" selection-start-line="16" selection-start-column="75" selection-end-line="16" selection-end-column="75" />
+            <state relative-caret-position="149">
+              <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+        <entry file="file://$PROJECT_DIR$/eBay/src/test/java/test/pages/HomeAndGardenPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5">
-              <caret line="81" selection-start-line="81" selection-end-line="81" />
+            <state relative-caret-position="308">
+              <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
               <folding>
-                <element signature="e#3089#3090#0" expanded="true" />
-                <element signature="e#10862#10863#0" expanded="true" />
-                <element signature="e#10929#10930#0" expanded="true" />
-                <element signature="e#18203#18204#0" expanded="true" />
-                <element signature="e#18237#18238#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#902#903#0" expanded="true" />
+                <element signature="e#936#937#0" expanded="true" />
+                <element signature="e#981#982#0" expanded="true" />
+                <element signature="e#1017#1018#0" expanded="true" />
+                <element signature="e#1065#1066#0" expanded="true" />
+                <element signature="e#1104#1105#0" expanded="true" />
+                <element signature="e#1149#1150#0" expanded="true" />
+                <element signature="e#1186#1187#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/GoogleSheetReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="79" selection-start-line="79" selection-end-line="79" />
             </state>
           </provider>
         </entry>
@@ -125,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eBay/src/test/java/test/pages/GoogleSheetsSignInTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+            <state relative-caret-position="288">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,41 +120,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eBay/src/test/resources/eBayRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+            <state relative-caret-position="238">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eBay/src/test/java/test/pages/SignInPageTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/eBay/src/main/java/pages/SellPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-169">
-              <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+            <state relative-caret-position="306">
+              <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1054#1055#0" expanded="true" />
-                <element signature="e#1089#1090#0" expanded="true" />
-                <element signature="e#1135#1136#0" expanded="true" />
-                <element signature="e#1180#1181#0" expanded="true" />
-                <element signature="e#1228#1229#0" expanded="true" />
-                <element signature="e#1275#1276#0" expanded="true" />
-                <element signature="e#1654#1655#0" expanded="true" />
-                <element signature="e#1700#1701#0" expanded="true" />
-                <element signature="e#1747#1748#0" expanded="true" />
-                <element signature="e#1790#1791#0" expanded="true" />
-                <element signature="e#1835#1836#0" expanded="true" />
-                <element signature="e#1864#1865#0" expanded="true" />
+                <element signature="e#926#927#0" expanded="true" />
+                <element signature="e#986#987#0" expanded="true" />
+                <element signature="e#1168#1169#0" expanded="true" />
+                <element signature="e#1205#1206#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/resources/client_secret.json">
+        <entry file="file://$PROJECT_DIR$/eBay/src/main/java/pages/HomeAndGardenPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="316">
+              <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1547#1548#0" expanded="true" />
+                <element signature="e#1599#1600#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eBay/src/main/java/pages/CareersPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-267">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eBay/src/test/java/test/pages/CareerPagesTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-252">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -179,20 +183,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentReporterNG.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1230">
-              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eBay/src/main/java/pages/TableTennisEquipmentPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+            <state relative-caret-position="123">
+              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -249,9 +241,7 @@
         <option value="$PROJECT_DIR$/Rest_API/src/test/java/JSONServer/PostsResources.java" />
         <option value="$PROJECT_DIR$/Generic/pom.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/resources/.properties" />
-        <option value="$PROJECT_DIR$/eBay/src/main/java/pages/HomeAndGardenPage.java" />
         <option value="$PROJECT_DIR$/Rest_API/src/test/Resources/RestApiRunner.xml" />
-        <option value="$PROJECT_DIR$/eBay/src/main/java/pages/SellPage.java" />
         <option value="$PROJECT_DIR$/eBay/src/main/java/pages/TableTennisEquipmentPage.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/eBay/src/main/java/pages/GoogleSheetsSignIn.java" />
@@ -269,10 +259,12 @@
         <option value="$PROJECT_DIR$/eBay/src/main/java/pages/SearchPage.java" />
         <option value="$PROJECT_DIR$/eBay/src/main/java/pages/SignInPage.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/resources/client_secret.json" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentReporterNG.java" />
-        <option value="$PROJECT_DIR$/eBay/src/test/resources/eBayRunner.xml" />
         <option value="$PROJECT_DIR$/eBay/src/test/java/test/pages/GoogleSheetsSignInTest.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentReporterNG.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" />
+        <option value="$PROJECT_DIR$/eBay/src/main/java/pages/HomeAndGardenPage.java" />
+        <option value="$PROJECT_DIR$/eBay/src/test/resources/eBayRunner.xml" />
+        <option value="$PROJECT_DIR$/eBay/src/main/java/pages/SellPage.java" />
       </list>
     </option>
   </component>
@@ -311,7 +303,7 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="724" />
@@ -337,12 +329,6 @@
               <item name="comseleniumfrmwrk" type="b2602c69:ProjectViewProjectNode" />
               <item name="comseleniumfrmwrk" type="462c0819:PsiDirectoryNode" />
               <item name="eBay" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comseleniumfrmwrk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comseleniumfrmwrk" type="462c0819:PsiDirectoryNode" />
-              <item name="eBay" type="462c0819:PsiDirectoryNode" />
-              <item name="Extent-Report" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="comseleniumfrmwrk" type="b2602c69:ProjectViewProjectNode" />
@@ -552,7 +538,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548698794667" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548784428162" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -669,34 +655,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_MacUser_IdeaProjects_comseleniumfrmwrk_eBay_src_test_resources_eBayRunner_xml - 2019.01.27 at 09h 07m 37s.xml">
+    <history-entry file="_Users_MacUser_IdeaProjects_comseleniumfrmwrk_eBay_src_test_resources_eBayRunner_xml - 2019.01.28 at 13h 11m 11s.xml">
       <configuration name="/Users/MacUser/IdeaProjects/comseleniumfrmwrk/eBay/src/test/resources/eBayRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_MacUser_IdeaProjects_comseleniumfrmwrk_eBay_src_test_resources_eBayRunner_xml - 2019.01.27 at 09h 10m 14s.xml">
+    <history-entry file="_Users_MacUser_IdeaProjects_comseleniumfrmwrk_eBay_src_test_resources_eBayRunner_xml - 2019.01.28 at 13h 16m 02s.xml">
       <configuration name="/Users/MacUser/IdeaProjects/comseleniumfrmwrk/eBay/src/test/resources/eBayRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_MacUser_IdeaProjects_comseleniumfrmwrk_eBay_src_test_resources_eBayRunner_xml - 2019.01.27 at 09h 33m 14s.xml">
+    <history-entry file="_Users_MacUser_IdeaProjects_comseleniumfrmwrk_eBay_src_test_resources_eBayRunner_xml - 2019.01.29 at 11h 08m 28s.xml">
       <configuration name="/Users/MacUser/IdeaProjects/comseleniumfrmwrk/eBay/src/test/resources/eBayRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_MacUser_IdeaProjects_comseleniumfrmwrk_eBay_src_test_resources_eBayRunner_xml - 2019.01.27 at 13h 02m 17s.xml">
+    <history-entry file="_Users_MacUser_IdeaProjects_comseleniumfrmwrk_eBay_src_test_resources_eBayRunner_xml - 2019.01.29 at 11h 09m 06s.xml">
       <configuration name="/Users/MacUser/IdeaProjects/comseleniumfrmwrk/eBay/src/test/resources/eBayRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_MacUser_IdeaProjects_comseleniumfrmwrk_eBay_src_test_resources_eBayRunner_xml - 2019.01.27 at 13h 03m 58s.xml">
+    <history-entry file="_Users_MacUser_IdeaProjects_comseleniumfrmwrk_eBay_src_test_resources_eBayRunner_xml - 2019.01.29 at 11h 11m 18s.xml">
       <configuration name="/Users/MacUser/IdeaProjects/comseleniumfrmwrk/eBay/src/test/resources/eBayRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_MacUser_IdeaProjects_comseleniumfrmwrk_eBay_src_test_resources_eBayRunner_xml - 2019.01.28 at 12h 46m 56s.xml">
+    <history-entry file="_Users_MacUser_IdeaProjects_comseleniumfrmwrk_eBay_src_test_resources_eBayRunner_xml - 2019.01.29 at 11h 12m 04s.xml">
       <configuration name="/Users/MacUser/IdeaProjects/comseleniumfrmwrk/eBay/src/test/resources/eBayRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_MacUser_IdeaProjects_comseleniumfrmwrk_eBay_src_test_resources_eBayRunner_xml - 2019.01.28 at 12h 49m 04s.xml">
+    <history-entry file="_Users_MacUser_IdeaProjects_comseleniumfrmwrk_eBay_src_test_resources_eBayRunner_xml - 2019.01.29 at 11h 14m 58s.xml">
       <configuration name="/Users/MacUser/IdeaProjects/comseleniumfrmwrk/eBay/src/test/resources/eBayRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_MacUser_IdeaProjects_comseleniumfrmwrk_eBay_src_test_resources_eBayRunner_xml - 2019.01.28 at 12h 51m 23s.xml">
+    <history-entry file="_Users_MacUser_IdeaProjects_comseleniumfrmwrk_eBay_src_test_resources_eBayRunner_xml - 2019.01.29 at 11h 15m 47s.xml">
       <configuration name="/Users/MacUser/IdeaProjects/comseleniumfrmwrk/eBay/src/test/resources/eBayRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_MacUser_IdeaProjects_comseleniumfrmwrk_eBay_src_test_resources_eBayRunner_xml - 2019.01.28 at 12h 54m 47s.xml">
+    <history-entry file="_Users_MacUser_IdeaProjects_comseleniumfrmwrk_eBay_src_test_resources_eBayRunner_xml - 2019.01.29 at 11h 16m 43s.xml">
       <configuration name="/Users/MacUser/IdeaProjects/comseleniumfrmwrk/eBay/src/test/resources/eBayRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_MacUser_IdeaProjects_comseleniumfrmwrk_eBay_src_test_resources_eBayRunner_xml - 2019.01.28 at 12h 59m 02s.xml">
+    <history-entry file="_Users_MacUser_IdeaProjects_comseleniumfrmwrk_eBay_src_test_resources_eBayRunner_xml - 2019.01.29 at 11h 21m 43s.xml">
       <configuration name="/Users/MacUser/IdeaProjects/comseleniumfrmwrk/eBay/src/test/resources/eBayRunner.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -710,7 +696,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="724" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="724" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -721,12 +708,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5323102" weight="0.32753164" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5323102" visible="true" weight="0.32753164" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49919224" weight="0.32911393" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49192247" visible="true" weight="0.32911393" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49192247" weight="0.32911393" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.4676898" side_tool="true" weight="0.32753164" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49919224" weight="0.32911393" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4951535" weight="0.32753164" />
@@ -955,44 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eBay/src/test/java/test/pages/CareerPagesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1224#1225#0" expanded="true" />
-            <element signature="e#1271#1272#0" expanded="true" />
-            <element signature="e#1325#1326#0" expanded="true" />
-            <element signature="e#1375#1376#0" expanded="true" />
-            <element signature="e#1426#1427#0" expanded="true" />
-            <element signature="e#1473#1474#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eBay/src/test/java/test/pages/HomeAndGardenPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eBay/src/test/java/test/pages/TableTennisEquipmentPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#940#941#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eBay/src/test/java/test/pages/SellPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1027,34 +976,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/eBay/Extent-Report/ExtentReport.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eBay/src/main/java/pages/CareersPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-469">
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1627#1628#0" expanded="true" />
-            <element signature="e#1665#1666#0" expanded="true" />
-            <element signature="e#1701#1702#0" expanded="true" />
-            <element signature="e#1790#1791#0" expanded="true" />
-            <element signature="e#1827#1828#0" expanded="true" />
-            <element signature="e#1912#1913#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eBay/src/main/java/pages/HomeAndGardenPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1547#1548#0" expanded="true" />
-            <element signature="e#1599#1600#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eBay/src/main/java/pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1091,18 +1012,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eBay/src/main/java/pages/SellPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#926#927#0" expanded="true" />
-            <element signature="e#986#987#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eBay/src/main/java/pages/SignInPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -1126,13 +1035,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1172,35 +1074,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentReporterNG.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eBay/src/test/resources/eBayRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/report-config.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eBay/src/test/java/test/pages/GoogleSheetsSignInTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1216,10 +1091,118 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/eBay/src/test/java/test/pages/TableTennisEquipmentPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eBay/src/test/java/test/pages/GoogleSheetsSignInTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentReporterNG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="16" column="75" selection-start-line="16" selection-start-column="75" selection-end-line="16" selection-end-column="75" />
+        <state relative-caret-position="149">
+          <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eBay/src/test/java/test/pages/HomeAndGardenPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1017#1018#0" expanded="true" />
+            <element signature="e#1065#1066#0" expanded="true" />
+            <element signature="e#1104#1105#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+            <element signature="e#1186#1187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eBay/src/main/java/pages/HomeAndGardenPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1547#1548#0" expanded="true" />
+            <element signature="e#1599#1600#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eBay/src/main/java/pages/CareersPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-267">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eBay/src/test/java/test/pages/CareerPagesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-252">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eBay/src/test/resources/eBayRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eBay/src/main/java/pages/SellPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#986#987#0" expanded="true" />
+            <element signature="e#1168#1169#0" expanded="true" />
+            <element signature="e#1205#1206#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
