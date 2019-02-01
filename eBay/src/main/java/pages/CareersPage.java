@@ -58,4 +58,14 @@ public class CareersPage extends CommonAPI {
     public void viewOpenPositions() {
         clickByXpath("//a[@class='button-flat']");
     }
+    public void learnWhoWeAreClick(){
+        clickByXpath("//span[contains(text(),'Build opportunity with us')]");
+    }
+    public void ourBenefitsClick(){
+        clickByXpath("//div[@class='sub-navigation']//div[@class='inner']//ul[1]//li[1]");
+    }
+    public void getStartedNowLink(){
+        clickByXpath("//span[contains(text(),'Learn about who and why we hire')]");
+    }
+
 }

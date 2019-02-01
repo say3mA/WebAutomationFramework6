@@ -22,22 +22,22 @@ public class SellPageTest extends SellPage {
         report = ExtentManager.getInstance();
 
     }
-//    @Test
-//    public void verifyTitle(){
-//        sellpage.checkUrl();
-//    }
-//    @Test
-//    public void properUrl(){
-//        sellpage.checkTitle();
-//    }
-//    @Test
-//    public void checkSearchBoxTest(){
-//        sellpage.checkSearchBox();
-//    }
-//    @Test
-//    public void checkBusinessLink(){
-//        sellpage.businessLink();
-//    }
+    @Test
+    public void verifyTitle(){
+        sellpage.checkUrl();
+    }
+    @Test
+    public void properUrl(){
+        sellpage.checkTitle();
+    }
+    @Test
+    public void checkSearchBoxTest(){
+        sellpage.checkSearchBox();
+    }
+    @Test
+    public void checkBusinessLink(){
+        sellpage.businessLink();
+    }
     @Test
     public void checkAppStore(){
         sellpage.appStoreButtonClick();

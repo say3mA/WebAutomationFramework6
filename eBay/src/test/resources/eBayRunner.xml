@@ -25,9 +25,9 @@
             <!--<class name="test.pages.HomeAndGardenPageTest"/>-->
             <!--<class name="test.pages.HomePageTest"/>-->
             <!--<class name="test.pages.SearchPageTest"/>-->
-            <!--<class name="test.pages.TableTennisEquipmentPageTest"/>-->
+            <class name="test.pages.TableTennisEquipmentPageTest"/>
             <!--<class name="test.pages.SellPageTest"/>-->
-            <class name ="test.pages.TableTennisEquipmentPageTest"/>
+            <!--<class name ="test.pages.RegisterPageTest"/>-->
 
 
 

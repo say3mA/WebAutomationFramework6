@@ -30,7 +30,7 @@ public class TableTennisEquipmentPageTest extends TableTennisEquipmentPage {
         report = ExtentManager.getInstance();
 
     }
-//
+
 //    @Test
 //    public void properUrlTest(){
 //        ttepage.properUrl();
@@ -44,11 +44,7 @@ public class TableTennisEquipmentPageTest extends TableTennisEquipmentPage {
 //        Object data[][] = dataReader.getTestData(0);
 //        return data;
 //    }
-//    @Test(dataProvider = "getExcelTestData")
-//    public void searchTableTennisTest(String item, String item2)throws InterruptedException{
-//        ttepage.tableTennisSearch(item);
-//        ttepage.tableTennisSearch(item2);
-//    }
+//
 //    @Test
 //    public void under25DollarsTest(){
 //        ttepage.under25DollarsClick();
@@ -65,10 +61,40 @@ public class TableTennisEquipmentPageTest extends TableTennisEquipmentPage {
 //    public void dropDownSearchTest(){
 //        ttepage.dropDownEquipmentSearch();
 //    }
+//    @Test
+//    public void dropDownNumOfOptionsTest(){
+//        ttepage.dropDownSearchCount();
+//    }
+//    @Test
+//    public void checkBoxTest(){
+//        ttepage.checkBox();
+//    }
+//    @Test
+//    public void brandOfTableTennisTest(){
+//        ttepage.brandsOfTableTennis();
+//    }
+//    @Test
+//    public void shopByCategoryTest(){
+//        ttepage.shopByCategoryLink();
+//    }
+//    @Test
+//    public void yourShoppingCartTest(){
+//        ttepage.yourShoppingCart();
+//    }
+//    @Test
+//    public void yourNotificationsTest(){
+//        ttepage.yourNotifications();
+//    }
     @Test
-    public void dropDownNumOfOptionsTest(){
-        ttepage.dropDownSearchCount();
+    public void selectMensShoesTest() throws InterruptedException {
+        ttepage.selectMensShoes();
     }
+
+//    @Test(dataProvider = "getExcelTestData")
+//    public void searchTableTennisTest(String item, String item2)throws InterruptedException{
+//        ttepage.tableTennisSearch(item);
+//        ttepage.tableTennisSearch(item2);
+//    }
 
 
 }

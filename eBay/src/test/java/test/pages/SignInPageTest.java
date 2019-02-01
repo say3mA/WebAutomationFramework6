@@ -29,36 +29,37 @@ public class SignInPageTest extends SignInPage {
         this.dataReader = new MyDataReader();
         dataReader.setExcelFile(Path);
     }
-    @Test
-    public void signInDummyTest(){
-        signinpage.signIn();
-    }
-    @Test
-    public void signInGoogleTest(){
-        signinpage.signInWithGoogle();
-    }
-    @Test
-    public void signInFacebookTest(){
-        signinpage.signInWithFacebook();
-    }
-    @DataProvider
-    public Object[][] getExcelTestData(){
-        Object data[][] = dataReader.getTestData(0);
-        return data;
-    }
-    @Test(dataProvider = "getExcelTestData")
-    public void signInTest(String user, String pw){
-        signinpage.signIn(user, pw);
-        System.out.println(user + "    " + pw);
-    }
-    @Test
-    public void createAccountLinkTest(){
-        signinpage.createAccountLink();
-    }
-    @Test
-    public void learnMoreLinkTest(){
-        signinpage.learnMoreClick();
-    }
+//    @Test
+//    public void signInDummyTest(){
+//        signinpage.signIn();
+//    }
+//    @Test
+//    public void signInGoogleTest(){
+//        signinpage.signInWithGoogle();
+//    }
+//    @Test
+//    public void signInFacebookTest(){
+//        signinpage.signInWithFacebook();
+//    }
+//    @DataProvider
+//    public Object[][] getExcelTestData(){
+//        Object data[][] = dataReader.getTestData(0);
+//        return data;
+//    }
+//    @Test(dataProvider = "getExcelTestData")
+//    public void signInTest(String user, String pw){
+//        signinpage.signIn(user, pw);
+//        System.out.println(user + "    " + pw);
+//    }
+//    @Test
+//    public void createAccountLinkTest(){
+//        signinpage.createAccountLink();
+//    }
+//    @Test
+//    public void learnMoreLinkTest(){
+//        signinpage.learnMoreClick();
+//    }
+
     @AfterMethod
     public void tearDown(){
         driver.quit();
