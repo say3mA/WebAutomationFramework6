@@ -38,4 +38,10 @@ public class SearchPage extends CommonAPI {
         }
         Assert.assertEquals(data.size(), 1018);
     }
+    public void boatsLink(){
+        clickByXpath("/html[1]/body[1]/div[4]/div[1]/div[2]/div[2]/div[1]/div[3]/div[1]/div[2]/ul[1]/li[1]/a[1]");
+    }
+    public void partsImage(){
+        Assert.assertTrue(driver.findElement(By.xpath("//img[@src='https://i.ebayimg.com/00/s/MjM2WDMxNQ==/z/NXwAAOSw~AVYphDS/$_57.JPG?set_id=80000000000']")).isDisplayed());
+    }
 }

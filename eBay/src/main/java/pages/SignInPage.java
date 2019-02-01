@@ -1,9 +1,11 @@
 package pages;
 
 import base.CommonAPI;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 
 public class SignInPage extends CommonAPI {
@@ -39,5 +41,17 @@ public class SignInPage extends CommonAPI {
     }
     public void learnMoreClick() {
         clickOnCss("#signinanch1");
+    }
+    public void eBayLogoDisplay(){
+        Assert.assertTrue(driver.findElement(By.cssSelector("#gh-logo")).isDisplayed());
+    }
+    public void resetPasswordLink(){
+        clickOnCss("#inflowfyp");
+    }
+    public void textTempPasswordLink(){
+        clickOnCss("#otpanch");
+    }
+    public void checkSignIn(){
+        clickOnCss("#csi");
     }
 }

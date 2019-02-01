@@ -1,6 +1,7 @@
 package test.pages;
 
 import com.relevantcodes.extentreports.ExtentReports;
+import org.apache.maven.surefire.shade.org.apache.commons.lang3.builder.ToStringExclude;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -22,29 +23,37 @@ public class SellPageTest extends SellPage {
         report = ExtentManager.getInstance();
 
     }
+//    @Test
+//    public void verifyTitle(){
+//        sellpage.checkUrl();
+//    }
+//    @Test
+//    public void properUrl(){
+//        sellpage.checkTitle();
+//    }
+//    @Test
+//    public void checkSearchBoxTest(){
+//        sellpage.checkSearchBox();
+//    }
+//    @Test
+//    public void checkBusinessLink(){
+//        sellpage.businessLink();
+//    }
+//    @Test
+//    public void checkAppStore(){
+//        sellpage.appStoreButtonClick();
+//    }
+//    @Test
+//    public void checkPlayStore(){
+//        sellpage.playStoreButtonClick();
+//    }
+//    @Test
+//    public void helpLinkTest(){
+//        sellpage.helpLink();
+//    }
     @Test
-    public void verifyTitle(){
-        sellpage.checkUrl();
-    }
-    @Test
-    public void properUrl(){
-        sellpage.checkTitle();
-    }
-    @Test
-    public void checkSearchBoxTest(){
-        sellpage.checkSearchBox();
-    }
-    @Test
-    public void checkBusinessLink(){
-        sellpage.businessLink();
-    }
-    @Test
-    public void checkAppStore(){
-        sellpage.appStoreButtonClick();
-    }
-    @Test
-    public void checkPlayStore(){
-        sellpage.playStoreButtonClick();
+    public void signInLinkTest(){
+        sellpage.signInLink();
     }
     @AfterMethod
     public void tearDown(){

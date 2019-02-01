@@ -40,7 +40,12 @@ public class SellPage extends CommonAPI {
     }
     public void playStoreButtonClick(){
         playStoreButton.click();
-
+    }
+    public void helpLink(){
+        clickByXpath("//ul[@class='l-header__topnavigation']//li[2]//a[1]");
+    }
+    public void signInLink(){
+        clickByXpath("//a[contains(text(),'Sign in')]");
     }
 
 

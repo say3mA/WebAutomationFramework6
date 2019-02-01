@@ -59,6 +59,22 @@ public class SignInPageTest extends SignInPage {
 //    public void learnMoreLinkTest(){
 //        signinpage.learnMoreClick();
 //    }
+//    @Test
+//    public void eBayLogoTest(){
+//        signinpage.eBayLogoDisplay();
+//    }
+//    @Test
+//    public void resetPasswordTest(){
+//        signinpage.resetPasswordLink();
+//    }
+//    @Test
+//    public void textTempPasswordTest(){
+//        signinpage.textTempPasswordLink();
+//    }
+    @Test
+    public void checkSignInBoxTest(){
+        signinpage.checkSignIn();
+    }
 
     @AfterMethod
     public void tearDown(){

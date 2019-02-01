@@ -32,21 +32,29 @@ public class SearchPageTest extends SearchPage{
         report = ExtentManager.getInstance();
 
     }
+//    @Test
+//    public void properUrl(){
+//        Assert.assertEquals(driver.getCurrentUrl(), "https://www.ebay.com/v/allcategories");
+//    }
+//    @Test
+//    public void checkTitle(){
+//        Assert.assertEquals(driver.getTitle(), "All Categories - Browse and Discover more | eBay");
+//    }
+//    @Test
+//    public void TableTennisLinkTest(){
+//        searchpage.pingPongLinkClick();
+//    }
+//    @Test
+//    public void numberOfSubCategoriesTest(){
+//        searchpage.numberOfLinksInCategories();
+//    }
+//    @Test
+//    public void boatsLinkTest(){
+//        searchpage.boatsLink();
+//    }
     @Test
-    public void properUrl(){
-        Assert.assertEquals(driver.getCurrentUrl(), "https://www.ebay.com/v/allcategories");
-    }
-    @Test
-    public void checkTitle(){
-        Assert.assertEquals(driver.getTitle(), "All Categories - Browse and Discover more | eBay");
-    }
-    @Test
-    public void TableTennisLinkTest(){
-        searchpage.pingPongLinkClick();
-    }
-    @Test
-    public void numberOfSubCategoriesTest(){
-        searchpage.numberOfLinksInCategories();
+    public void partsImageTest(){
+        searchpage.partsImage();
     }
 
 
