@@ -35,12 +35,32 @@ public class RegisterPageTest extends RegisterPage {
         registerpage.registerUser(fn, ln, email, pw);
     }
     @Test
-    public void properUrl(){
-        Assert.assertEquals(driver.getCurrentUrl(), "https://reg.ebay.com/reg/PartialReg?ru=https%3A%2F%2Fwww.ebay.com%2F");
+    public void checkUrl(){
+        registerpage.properUrl();
     }
     @Test
     public void checkTitle(){
-        Assert.assertEquals(driver.getTitle(), "Sign in or Register | eBay");
+        registerpage.properTitle();
+    }
+    @Test
+    public void eBayLogoIsThere(){
+        registerpage.eBayLogo();
+    }
+    @Test
+    public void userAgreementLinkTest(){
+        registerpage.userAgreementLink();
+    }
+    @Test
+    public void userPrivacyNoticeLinkTest(){
+        registerpage.userPrivacyNotice();
+    }
+    @Test
+    public void nortonLogoIsThereTest(){
+        registerpage.nortonLogo();
+    }
+    @Test
+    public void showPasswordBoxTest(){
+        registerpage.showPasswordBox();
     }
     @AfterMethod
     public void tearDown(){

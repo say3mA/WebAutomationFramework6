@@ -55,6 +55,22 @@ public class HomeAndGardenPageTest extends HomeAndGardenPage {
     public void amountOfShopCategoriesTest(){
         hngpage.amountOfCategories();
     }
+    @Test
+    public void dailyDealsLinkTest(){
+        hngpage.dailyDealsLink();
+    }
+    @Test
+    public void eBayCouponTest(){
+        hngpage.eBayCouponsLink();
+    }
+    @Test
+    public void gearUpTest(){
+        hngpage.gearUpLink();
+    }
+    @Test
+    public void moreCashNowTest(){
+        hngpage.moreCashLink();
+    }
     @AfterMethod
     public void tearDown(){
         driver.quit();

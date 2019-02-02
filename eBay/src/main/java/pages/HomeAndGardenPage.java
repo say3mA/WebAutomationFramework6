@@ -57,5 +57,17 @@ public class HomeAndGardenPage extends CommonAPI {
     public void advancedLinkClick(){
         clickByXpath("//a[@id='gh-as-a']");
     }
+    public void dailyDealsLink(){
+        clickByXpath("//a[contains(text(),'Daily Deals')]");
+    }
+    public void eBayCouponsLink(){
+        clickByXpath("//a[contains(text(),'eBay Coupons')]");
+    }
+    public void moreCashLink(){
+        clickOnCss("#gh-hsi");
+    }
+    public void gearUpLink(){
+        clickByXpath("/html[1]/body[1]/div[3]/div[3]/div[3]/section[1]/div[1]/a[1]");
+    }
 
 }

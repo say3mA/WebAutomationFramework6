@@ -1,6 +1,7 @@
 package pages;
 
 import base.CommonAPI;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -46,6 +47,18 @@ public class SellPage extends CommonAPI {
     }
     public void signInLink(){
         clickByXpath("//a[contains(text(),'Sign in')]");
+    }
+    public void contactCustomerSupport(){
+        clickByXpath("//a[@title='Contact customer support']");
+    }
+    public void frequentlyAskedQuestionsLink(){
+        clickByXpath("//a[contains(text(),'FAQs')]");
+    }
+    public void checkOutTools(){
+        clickByXpath("//span[@class='l-hero__valet-subtitle']");
+    }
+    public void learnMoreLink(){
+        driver.findElement(By.linkText("Learn more")).click();
     }
 
 

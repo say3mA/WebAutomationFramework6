@@ -44,4 +44,19 @@ public class SearchPage extends CommonAPI {
     public void partsImage(){
         Assert.assertTrue(driver.findElement(By.xpath("//img[@src='https://i.ebayimg.com/00/s/MjM2WDMxNQ==/z/NXwAAOSw~AVYphDS/$_57.JPG?set_id=80000000000']")).isDisplayed());
     }
+    public void toysLink(){
+        clickByXpath("//img[@src='https://i.ebayimg.com/00/s/MjM2WDMxNQ==/z/NXwAAOSw~AVYphDS/$_57.JPG?set_id=80000000000']");
+    }
+    public void motorsImage(){
+        Assert.assertTrue(driver.findElement(By.xpath("//img[@src='https://i.ebayimg.com/00/s/MjM2WDMxNQ==/z/-9kAAOSwTA9X6Y7U/$_57.JPG?set_id=80000000000']")).isDisplayed());
+    }
+    public void helpAndContactLink(){
+        clickByXpath("//a[@class='gh-p'][contains(text(),'Help & Contact')]");
+    }
+    public void shopByCharactersLink(){
+        clickByXpath("//a[@class='page-header__right characters-link']");
+    }
+    public void nortonImage(){
+        Assert.assertTrue(driver.findElement(By.cssSelector("#gf-norton")).isDisplayed());
+    }
 }

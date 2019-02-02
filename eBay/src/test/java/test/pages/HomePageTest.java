@@ -75,10 +75,7 @@ public class HomePageTest extends HomePage {
     }
   @Test
   public void eBayKazakhstanUrlTest()throws InterruptedException{
-      homepage.eBayKazakhstanSelect();
-      Thread.sleep(2000);
-      String title = driver.getCurrentUrl();
-      Assert.assertEquals(title, "https://kz.ebay.com/");
+      homepage.eBayKazakhstanLink();
   }
   @Test
   public void registerPageTest(){

@@ -71,9 +71,41 @@ public class CareerPagesTest extends CareersPage {
 //    public void ourBenefitsLinkTest(){
 //        careerspage.ourBenefitsClick();
 //    }
+//    @Test
+//    public void getStartedLinkTest(){
+//        careerspage.getStartedNowLink();
+//    }
+//    @Test
+//    public void mainSearchButtonTest(){
+//        careerspage.mainSearchButton();
+//    }
+//    @Test
+//    public void studentsImageIsThereTest(){
+//        careerspage.studentsImage();
+//    }
+//    @Test
+//    public void impactLinkTest(){
+//        careerspage.impactLink();
+//    }
+//    @Test
+//    public void twitterLinkTest(){
+//        careerspage.twitterLink();
+//    }
     @Test
-    public void getStartedLinkTest(){
-        careerspage.getStartedNowLink();
+    public void facebookLinkTest(){
+        careerspage.facebookLink();
+    }
+    @Test
+    public void instagramLinkTest(){
+        careerspage.instagramLink();
+    }
+    @Test
+    public void linkedInTest(){
+        careerspage.linkedInLink();
+    }
+    @Test
+    public void glassdoorTest(){
+        careerspage.glassdoorLink();
     }
     @AfterMethod
     public void tearDown(){

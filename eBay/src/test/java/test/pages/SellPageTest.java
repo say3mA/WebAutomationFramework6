@@ -51,9 +51,25 @@ public class SellPageTest extends SellPage {
 //    public void helpLinkTest(){
 //        sellpage.helpLink();
 //    }
+//    @Test
+//    public void signInLinkTest(){
+//        sellpage.signInLink();
+//    }
     @Test
-    public void signInLinkTest(){
-        sellpage.signInLink();
+    public void contactCustomerSupportTest(){
+        sellpage.contactCustomerSupport();
+    }
+    @Test
+    public void FAQTest(){
+        sellpage.frequentlyAskedQuestionsLink();
+    }
+    @Test
+    public void checkOutToolsTest(){
+        sellpage.checkOutTools();
+    }
+    @Test
+    public void learnMoreTest(){
+        sellpage.learnMoreLink();
     }
     @AfterMethod
     public void tearDown(){

@@ -54,4 +54,5 @@ public class SignInPage extends CommonAPI {
     public void checkSignIn(){
         clickOnCss("#csi");
     }
+
 }

@@ -59,6 +59,14 @@ public class HomePage extends CommonAPI {
         eBaySites.click();
         clickOnElement("//p[contains(text(),'Kazakhstan')]");
     }
+    public void eBayKazakhstanLink() throws InterruptedException {
+        WebElement eBaySites = driver.findElement(By.cssSelector("#gf-fbtn"));
+        eBaySites.click();
+        clickOnElement("//p[contains(text(),'Kazakhstan')]");
+        Thread.sleep(2000);
+        String title = driver.getCurrentUrl();
+        Assert.assertEquals(title, "https://kz.ebay.com/");
+    }
     public SearchPage searchClick(){
         clickOnCss("#gh-btn");
         return new SearchPage();

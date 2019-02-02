@@ -67,5 +67,29 @@ public class CareersPage extends CommonAPI {
     public void getStartedNowLink(){
         clickByXpath("//span[contains(text(),'Learn about who and why we hire')]");
     }
+    public void mainSearchButton(){
+        clickByXpath("//button[@id='main-search-button']");
+    }
+    public void studentsImage(){
+        Assert.assertTrue(driver.findElement(By.xpath("//img[@src='https://static.ebayinc.com/static/assets/Uploads/Content/start-your-career.png']")).isDisplayed());
+    }
+    public void impactLink(){
+        clickByXpath("//body[contains(@class,'careers-land carousel-init layout-large')]/div[@id='sticky-wrap-main-header']/header[@id='main-header']/div[contains(@class,'main-header-top')]/div[contains(@class,'inner')]/div[contains(@class,'header-search-nav instant')]/nav[@id='header-nav']/ul[contains(@class,'header-nav-top')]/li[1]");
+    }
+    public void twitterLink(){
+        clickByXpath("//div[contains(@class,'social-icons light large')]//a[contains(@title,'Twitter')]");
+    }
+    public void facebookLink(){
+        clickByXpath("//div[contains(@class,'social-icons light large')]//a[contains(@title,'Facebook')]");
+    }
+    public void instagramLink(){
+        clickByXpath("//a[contains(@title,'Instagram')]");
+    }
+    public void linkedInLink(){
+        clickByXpath("//div[contains(@class,'social-icons light large')]//a[contains(@title,'LinkedIn')]");
+    }
+    public void glassdoorLink(){
+        clickByXpath("//a[contains(@title,'Glassdoor')]");
+    }
 
 }
